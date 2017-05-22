@@ -252,10 +252,16 @@ li:hover > ul.drop-menu.menu-1 li {
   /* Chrome, Safari, Opera */
   animation-delay: 1.3s; }
 
-/*
 #portfolioTitle {
   font-size: 7vmin;
 }
-*/
+
+@media only screen and (max-width: 800px) {
+
+  #portfolioTitle {
+    font-size: 30px;
+    letter-spacing: 8px;
+  } 
+}
 
 /*# sourceMappingURL=style.css.map */
