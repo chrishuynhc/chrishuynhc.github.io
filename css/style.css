@@ -250,7 +250,8 @@ li:hover > ul.drop-menu.menu-1 li {
 #pThree {
   -webkit-animation-delay: 1.3s;
   /* Chrome, Safari, Opera */
-  animation-delay: 1.3s; }
+  animation-delay: 1.3s; 
+}
 
 @media only screen and (max-width: 800px) {
 
