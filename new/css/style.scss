@@ -1,5 +1,8 @@
 $mid-gray: #747272;
 $light-gray: #F1F2F2;
+$green: #44CDAD;
+$red: #FF968E;
+$yellow: #FFF6BB;
 
 body {
     width: 100%;
@@ -114,7 +117,26 @@ body {
 }
 
 .portfolio {
+    height: 1500px;
+    width: 100% !important;
+    margin: 0 !important;
+    #green {
+        background-color: $green;
+        height: 500px;
+    }
+    #greenText {
 
+    }
+
+    #red {
+        background-color: $red;
+        height: 500px;
+    }
+
+    #yellow {
+        background-color: $yellow;
+        height: 500px;
+    }
 }
 
 .footer {

@@ -76,6 +76,20 @@ body, .header .socialMediaButtons {
     float: right;
     margin-top: -290px; }
 
+.portfolio {
+  height: 1500px;
+  width: 100% !important;
+  margin: 0 !important; }
+  .portfolio #green {
+    background-color: #44CDAD;
+    height: 500px; }
+  .portfolio #red {
+    background-color: #FF968E;
+    height: 500px; }
+  .portfolio #yellow {
+    background-color: #FFF6BB;
+    height: 500px; }
+
 .footer {
   text-align: center; }
   .footer #foot {
