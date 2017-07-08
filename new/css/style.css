@@ -17,20 +17,39 @@ body, .header .socialMediaButtons {
     font-weight: 400;
     letter-spacing: 7px;
     font-size: 15px; }
+  .header .socialMediaButtons {
+    padding-bottom: 50px !important; }
+    .header .socialMediaButtons #one {
+      -webkit-animation-delay: .1s;
+      /* Chrome, Safari, Opera */
+      animation-delay: .1s; }
+    .header .socialMediaButtons #three {
+      -webkit-animation-delay: .25s;
+      /* Chrome, Safari, Opera */
+      animation-delay: .25s; }
+    .header .socialMediaButtons #four {
+      -webkit-animation-delay: .4s;
+      /* Chrome, Safari, Opera */
+      animation-delay: .4s; }
+    .header .socialMediaButtons #five {
+      -webkit-animation-delay: .55s;
+      /* Chrome, Safari, Opera */
+      animation-delay: .55s; }
   .header .buttons {
     display: inline-block;
     padding: 15px; }
   .header #resume {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: white;
+    color: black;
     letter-spacing: 7px;
-    background: black; }
+    text-decoration: none; }
 
 .about {
   height: 500px;
   background-color: #F1F2F2;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .about h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -45,6 +64,24 @@ body, .header .socialMediaButtons {
     letter-spacing: 1px;
     line-height: 24px;
     text-align: left;
-    color: #8D8D8D; }
+    color: #747272; }
+  .about #pen {
+    float: left;
+    margin-top: -260px; }
+  .about #buds {
+    float: left;
+    margin-top: -75px;
+    margin-left: -100px; }
+  .about #glasses {
+    float: right;
+    margin-top: -290px; }
+
+.footer {
+  text-align: center; }
+  .footer #foot {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

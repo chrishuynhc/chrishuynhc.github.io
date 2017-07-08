@@ -1,4 +1,4 @@
-$mid-gray: #8D8D8D;
+$mid-gray: #747272;
 $light-gray: #F1F2F2;
 
 body {
@@ -28,6 +28,33 @@ body {
 
     .socialMediaButtons {
         @extend body;
+
+        padding-bottom: 50px !important;
+        
+        //Buttons Animations
+        #one {
+            -webkit-animation-delay: .1s;
+            /* Chrome, Safari, Opera */
+            animation-delay: .1s; 
+        }
+
+        #three {
+            -webkit-animation-delay: .25s;
+            /* Chrome, Safari, Opera */
+            animation-delay: .25s; 
+        }
+
+        #four {
+            -webkit-animation-delay: .4s;
+            /* Chrome, Safari, Opera */
+            animation-delay: .4s; }
+        
+
+        #five {
+            -webkit-animation-delay: .55s;
+            /* Chrome, Safari, Opera */
+            animation-delay: .55s; 
+        }
     }
 
     .buttons {
@@ -38,9 +65,9 @@ body {
     #resume {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
-        color: white;
+        color: black;
         letter-spacing: 7px;
-        background: black;
+        text-decoration: none;
     }
 }
 
@@ -48,6 +75,7 @@ body {
     height: 500px;
     background-color: $light-gray;
     text-align: center;
+    overflow: hidden;
 
     h1 {
         font-family: 'Lato', sans-serif;
@@ -67,7 +95,40 @@ body {
         text-align: left;
         color: $mid-gray;
     }
+
+    #pen {
+        float: left;
+        margin-top: -260px;
+    }
+
+    #buds {
+        float: left;
+        margin-top: -75px;
+        margin-left: -100px;
+    }
+
+    #glasses {
+        float: right;
+        margin-top: -290px;
+    }
 }
+
+.portfolio {
+
+}
+
+.footer {
+    text-align: center;
+
+    #foot {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+        font-size: 14px;
+    }
+}
+
+
 
 
 
