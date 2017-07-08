@@ -1,5 +1,73 @@
-html {
+$mid-gray: #8D8D8D;
+$light-gray: #F1F2F2;
+
+body {
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
+
+.header {
+    height: 550px;
+    text-align: center;
+
+    #name {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 70px;
+        letter-spacing: 15px;
+        padding-top: 200px;
+    }
+
+    #sub {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        letter-spacing: 7px;
+        font-size: 15px;
+    }
+
+    .socialMediaButtons {
+        @extend body;
+    }
+
+    .buttons {
+        display: inline-block;
+        padding: 15px;
+    }
+
+    #resume {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 7px;
+        background: black;
+    }
+}
+
+.about {
+    height: 500px;
+    background-color: $light-gray;
+    text-align: center;
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 60px;
+        letter-spacing: 15px;
+        padding-top: 100px;
+    }
+
+    p {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        max-width: 450px;
+        margin: 0 auto;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-align: left;
+        color: $mid-gray;
+    }
+}
+
+
+
