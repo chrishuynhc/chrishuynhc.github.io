@@ -20,21 +20,21 @@ body, .header .socialMediaButtons {
   .header .socialMediaButtons {
     padding-bottom: 50px !important; }
     .header .socialMediaButtons #one {
-      -webkit-animation-delay: .1s;
+      -webkit-animation-delay: .05s;
       /* Chrome, Safari, Opera */
-      animation-delay: .1s; }
+      animation-delay: .05s; }
     .header .socialMediaButtons #three {
-      -webkit-animation-delay: .25s;
+      -webkit-animation-delay: .20s;
       /* Chrome, Safari, Opera */
-      animation-delay: .25s; }
+      animation-delay: .20s; }
     .header .socialMediaButtons #four {
-      -webkit-animation-delay: .4s;
+      -webkit-animation-delay: .35s;
       /* Chrome, Safari, Opera */
-      animation-delay: .4s; }
+      animation-delay: .35; }
     .header .socialMediaButtons #five {
-      -webkit-animation-delay: .55s;
+      -webkit-animation-delay: .40s;
       /* Chrome, Safari, Opera */
-      animation-delay: .55s; }
+      animation-delay: .40s; }
   .header .buttons {
     display: inline-block;
     padding: 15px; }
@@ -55,7 +55,7 @@ body, .header .socialMediaButtons {
     font-weight: 900;
     font-size: 60px;
     letter-spacing: 15px;
-    padding-top: 200px; }
+    padding-top: 180px; }
   .about p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -84,7 +84,7 @@ body, .header .socialMediaButtons {
   .portfolio .text {
     margin: 0 auto !important;
     max-width: 550px;
-    padding-top: 180px; }
+    padding-top: 165px; }
     .portfolio .text h2 {
       font-family: 'Lato', sans-serif;
       font-weight: 900;
