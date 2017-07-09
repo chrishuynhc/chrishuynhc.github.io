@@ -1,3 +1,6 @@
+@media (max-width: 1200px) {
+  .portfolio {
+    height: 3600px !important; } }
 body, .header .socialMediaButtons {
   width: 100%;
   margin: 0px;
@@ -126,6 +129,8 @@ body, .header .socialMediaButtons {
     .portfolio #yellow img {
       padding-top: 140px;
       height: 600px; }
+  .portfolio .white {
+    height: 600px !important; }
 
 .footer {
   text-align: center;
