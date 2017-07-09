@@ -11,33 +11,35 @@
 		<meta name="description" content="Hey I'm Chris." />
 		<meta name="keywords" content="Chris, Huynh, Dallas, Texas, software, engineer, full-stack, developer, designer, chris, huynh" />
 		<link href="https://fonts.googleapis.com/css?family=Lato:900,700,400,300" rel="stylesheet">
+		<script src="js/main.js" type="text/javascript"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</head>
 	<body>
 		<div class="header">
-			<h1 id="name" class="title">CHRIS HUYNH</h1>
-			<h3 id="sub">DEVELOPER | DESIGNER</h3>
+			<h1 id="name" class="title animated zoomIn">CHRIS HUYNH</h1>
+			<h3 id="sub" class="animated zoomIn">DEVELOPER | DESIGNER</h3>
 			<ul class="socialMediaButtons">
 				<li id="one" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.instagram.com/huynh.chris/" target="_blank"><img src="images/instagramLogo@2x.png" height="40"></a></li>
 				<li id="three" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://github.com/chrishuynhc" target="_blank"><img src="images/githubLogo@2x.png" height="40"></a></li>
 				<li id="four" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.linkedin.com/in/chrishuynhc/" target="_blank"><img src="images/linkedinLogo@2x.png" height="40"></a></li>
 				<li id="five" class="animated zoomInUp hvr-ripple-out buttons"><a href="mailto:chris.huynh.c@gmail.com"><img src="images/emailLogo@2x.png" height="40"></a></li>
 			</ul>
-			<span><a href="resume.pdf" target="_blank" id="resume"><img src="images/resumeButton.png" height="35px"></a><span>
+			<span><a href="resume.pdf" target="_blank" id="resume"><img src="images/resumeButton.png" height="35px" class="animated zoomIn"></a><span>
 		</div>
 
 		<div class="about">
 			<h1 class="title">ABOUT</h1>
-			<p class="info">Hey I’m Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas. I also attend the University of Texas at Dallas where I’m majoring in Computer Science! ~Currently exploring the MEAN stack, creating Textbooks City, and redesigning my personal site!</p>
-			<img src="images/pen.png" height="400px" id="pen"> 
-			<img src="images/buds.png" height="280px" id="buds"> 
-			<img src="images/glasses.png" height="460px" id="glasses">
+			<p class="info">Hey I’m Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas. I also attend the University of Texas at Dallas where I’m majoring in Computer Science! ~Currently exploring the MEAN stack, creating Textbooks City, and redesigning my personal site.  Check out my projects below!</p>
+			<img src="images/pen.png" height="400px" id="pen" class="animated slideInLeft"> 
+			<img src="images/buds.png" height="280px" id="buds" class="animated slideInLeft"> 
+			<img src="images/glasses.png" height="460px" id="glasses" class="animated slideInRight">
 		</div>
 
 		<div class="portfolio container">
 			<div class="row">
 				<div class="col-lg-7" id="green">
-					<img src="images/tbcity.png">
+					<img src="images/tbcity.png" class="displayL">
 				</div>
 				<div class="col-lg-5" id="greenText">
 					<div class="text">
@@ -45,7 +47,6 @@
 						<h4>SUMMER 2017</h4>
 						<p>Textbookscity.com is the ultimate textbook price comparison, search engine helping you find the best deals. Easily search and find the cheapest prices on books across vendors such as Amazon, Chegg, Abebooks, Barnes & Noble, and much more!</p>
 						<p>Technologies Used: Node.js, Express, Angular, Bootstrap, Heroku</p>
-						<p>Design: Adobe XD</p>
 					</div>
 				</div>
 			</div>
@@ -59,12 +60,12 @@
 					</div>
 				</div>
 				<div class="col-lg-5"id="red">
-					<img src="images/flash.png">
+					<img src="images/flash.png" class="displayR">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-7" id="yellow">
-					<img src="images/wildre.png">
+					<img src="images/wildre.png" class="displayL">
 				</div>
 				<div class="col-lg-5">
 					<div class="text">
@@ -80,4 +81,16 @@
 			<h3 id="foot">CHRIS HUYNH</h3>
 		</div>
 	</body>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.displayL', {
+			duration: 1600,
+			origin: 'left'
+		});
+
+		sr.reveal('.displayR', {
+			duration: 1600,
+			origin: 'right'
+		});
+	</script>
 </html>
