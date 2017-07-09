@@ -1,4 +1,5 @@
 $mid-gray: #747272;
+$sub-gray: #A09D9D;
 $light-gray: #F1F2F2;
 $green: #44CDAD;
 $red: #FF968E;
@@ -131,16 +132,16 @@ body {
         h2 {
             font-family: 'Lato', sans-serif;
             font-weight: 900;
-            font-size: 48px;
+            font-size: 45px;
             letter-spacing: 8px;
             text-align: left;
         }
 
         h4 {
             font-family: 'Lato', sans-serif;
-            font-weight: 900;
-            font-size: 25px;
-            color: $mid-gray;
+            font-weight: 700;
+            font-size: 21px;
+            color: $sub-gray;
             letter-spacing: 2px;
             text-align: left;
         }
@@ -188,11 +189,15 @@ body {
 
 .footer {
     text-align: center;
+    background-color: $light-gray;
+    height: 50px;
+    margin-top: -20px;
 
     #foot {
+        padding-top: 18px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         font-size: 14px;
     }
 }

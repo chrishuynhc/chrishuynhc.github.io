@@ -88,14 +88,14 @@ body, .header .socialMediaButtons {
     .portfolio .text h2 {
       font-family: 'Lato', sans-serif;
       font-weight: 900;
-      font-size: 48px;
+      font-size: 45px;
       letter-spacing: 8px;
       text-align: left; }
     .portfolio .text h4 {
       font-family: 'Lato', sans-serif;
-      font-weight: 900;
-      font-size: 25px;
-      color: #747272;
+      font-weight: 700;
+      font-size: 21px;
+      color: #A09D9D;
       letter-spacing: 2px;
       text-align: left; }
     .portfolio .text p {
@@ -125,11 +125,15 @@ body, .header .socialMediaButtons {
       height: 600px; }
 
 .footer {
-  text-align: center; }
+  text-align: center;
+  background-color: #F1F2F2;
+  height: 50px;
+  margin-top: -20px; }
   .footer #foot {
+    padding-top: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
