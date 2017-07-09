@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    height: 550px;
+    height: 500px;
     text-align: center;
 
     #name {
@@ -19,7 +19,7 @@ body {
         font-weight: 900;
         font-size: 70px;
         letter-spacing: 15px;
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     #sub {
@@ -75,7 +75,7 @@ body {
 }
 
 .about {
-    height: 500px;
+    height: 600px;
     background-color: $light-gray;
     text-align: center;
     overflow: hidden;
@@ -85,7 +85,7 @@ body {
         font-weight: 900;
         font-size: 60px;
         letter-spacing: 15px;
-        padding-top: 100px;
+        padding-top: 200px;
     }
 
     p {
@@ -101,7 +101,7 @@ body {
 
     #pen {
         float: left;
-        margin-top: -260px;
+        margin-top: -360px;
     }
 
     #buds {
@@ -112,30 +112,77 @@ body {
 
     #glasses {
         float: right;
-        margin-top: -290px;
+        margin-top: -390px;
     }
 }
 
 .portfolio {
-    height: 1500px;
+    height: 1800px;
     width: 100% !important;
     margin: 0 !important;
+    text-align: center !important;
+
+    .text {
+
+        margin: 0 auto!important;
+        max-width: 550px;
+        padding-top: 180px;
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            font-size: 48px;
+            letter-spacing: 8px;
+            text-align: left;
+        }
+
+        h4 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            font-size: 25px;
+            color: $mid-gray;
+            letter-spacing: 2px;
+            text-align: left;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: $mid-gray;
+            text-align: left;
+            letter-spacing: 1px;
+            line-height: 24px;
+        }
+    }
+
     #green {
         background-color: $green;
-        height: 500px;
-    }
-    #greenText {
+        height: 600px;
 
+        img {
+            padding-top: 140px;
+            height: 600px;
+        }
     }
 
     #red {
         background-color: $red;
-        height: 500px;
+        height: 600px;
+
+        img {
+            padding-top: 50px;
+            height: 600px;
+        }
     }
 
     #yellow {
         background-color: $yellow;
-        height: 500px;
+        height: 600px;
+
+        img {
+            padding-top: 140px;
+            height: 600px;
+        }
     }
 }
 

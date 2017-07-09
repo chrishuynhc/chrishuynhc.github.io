@@ -4,14 +4,14 @@ body, .header .socialMediaButtons {
   padding: 0px; }
 
 .header {
-  height: 550px;
+  height: 500px;
   text-align: center; }
   .header #name {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 70px;
     letter-spacing: 15px;
-    padding-top: 200px; }
+    padding-top: 150px; }
   .header #sub {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -46,7 +46,7 @@ body, .header .socialMediaButtons {
     text-decoration: none; }
 
 .about {
-  height: 500px;
+  height: 600px;
   background-color: #F1F2F2;
   text-align: center;
   overflow: hidden; }
@@ -55,7 +55,7 @@ body, .header .socialMediaButtons {
     font-weight: 900;
     font-size: 60px;
     letter-spacing: 15px;
-    padding-top: 100px; }
+    padding-top: 200px; }
   .about p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -67,28 +67,62 @@ body, .header .socialMediaButtons {
     color: #747272; }
   .about #pen {
     float: left;
-    margin-top: -260px; }
+    margin-top: -360px; }
   .about #buds {
     float: left;
     margin-top: -75px;
     margin-left: -100px; }
   .about #glasses {
     float: right;
-    margin-top: -290px; }
+    margin-top: -390px; }
 
 .portfolio {
-  height: 1500px;
+  height: 1800px;
   width: 100% !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  text-align: center !important; }
+  .portfolio .text {
+    margin: 0 auto !important;
+    max-width: 550px;
+    padding-top: 180px; }
+    .portfolio .text h2 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+      letter-spacing: 8px;
+      text-align: left; }
+    .portfolio .text h4 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 900;
+      font-size: 25px;
+      color: #747272;
+      letter-spacing: 2px;
+      text-align: left; }
+    .portfolio .text p {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      color: #747272;
+      text-align: left;
+      letter-spacing: 1px;
+      line-height: 24px; }
   .portfolio #green {
     background-color: #44CDAD;
-    height: 500px; }
+    height: 600px; }
+    .portfolio #green img {
+      padding-top: 140px;
+      height: 600px; }
   .portfolio #red {
     background-color: #FF968E;
-    height: 500px; }
+    height: 600px; }
+    .portfolio #red img {
+      padding-top: 50px;
+      height: 600px; }
   .portfolio #yellow {
     background-color: #FFF6BB;
-    height: 500px; }
+    height: 600px; }
+    .portfolio #yellow img {
+      padding-top: 140px;
+      height: 600px; }
 
 .footer {
   text-align: center; }
