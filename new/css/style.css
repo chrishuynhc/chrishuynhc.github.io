@@ -4,21 +4,21 @@ body, .header .socialMediaButtons {
   padding: 0px; }
 
 .header {
-  height: 500px;
+  height: 600px;
   text-align: center; }
   .header #name {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 70px;
     letter-spacing: 15px;
-    padding-top: 150px; }
+    padding-top: 200px; }
   .header #sub {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     letter-spacing: 7px;
     font-size: 15px; }
   .header .socialMediaButtons {
-    padding-bottom: 50px !important; }
+    padding-bottom: 75px !important; }
     .header .socialMediaButtons #one {
       -webkit-animation-delay: .05s;
       /* Chrome, Safari, Opera */
@@ -82,8 +82,10 @@ body, .header .socialMediaButtons {
   margin: 0 !important;
   text-align: center !important; }
   .portfolio .text {
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0 auto !important;
-    max-width: 550px;
+    max-width: 650px;
     padding-top: 165px; }
     .portfolio .text h2 {
       font-family: 'Lato', sans-serif;
@@ -116,7 +118,8 @@ body, .header .socialMediaButtons {
     height: 600px; }
     .portfolio #red img {
       padding-top: 50px;
-      height: 600px; }
+      height: 600px;
+      padding-left: 50px; }
   .portfolio #yellow {
     background-color: #FFF6BB;
     height: 600px; }
