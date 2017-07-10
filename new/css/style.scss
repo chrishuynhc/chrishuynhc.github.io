@@ -130,11 +130,13 @@ body {
 
     .text {
 
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 70px;
+        padding-right: 70px;
         margin: 0 auto!important;
         max-width: 650px;
-        padding-top: 165px;
+        position: relative;
+        top: 46%;
+        transform: translateY(-46%);
 
         h2 {
             font-family: 'Lato', sans-serif;
@@ -168,7 +170,7 @@ body {
         height: 600px;
 
         img {
-            padding-top: 140px;
+            padding-top: 150px;
             height: 600px;
         }
     }
@@ -180,7 +182,7 @@ body {
         img {
             padding-top: 50px;
             height: 600px;
-            padding-left: 50px;
+            padding-left: 25px;
         }
     }
 
@@ -189,7 +191,7 @@ body {
         height: 600px;
 
         img {
-            padding-top: 140px;
+            padding-top: 150px;
             height: 600px;
         }
     }

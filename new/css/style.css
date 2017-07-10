@@ -1,3 +1,6 @@
+@media (max-width: 657px) {
+  .header #name {
+    padding-top: 170px !important; } }
 @media (max-width: 1450px) {
   #pen {
     height: 350px !important; }
@@ -56,7 +59,24 @@
     margin-top: -420px !important; } }
 @media (max-width: 992px) {
   .portfolio {
-    height: 3600px !important; } }
+    height: 3600px !important; }
+    .portfolio .text {
+      padding-left: 50px !important;
+      padding-right: 40px !important; } }
+@media (max-width: 650px) {
+  .displayL {
+    height: 350px !important;
+    padding-top: 80px !important; }
+
+  #red img {
+    padding-top: 30px !important;
+    height: 350px !important; }
+
+  #green, #red, #yellow {
+    height: 350px !important; }
+
+  .portfolio {
+    height: 2920px !important; } }
 body, .header .socialMediaButtons {
   width: 100%;
   margin: 0px;
@@ -144,11 +164,13 @@ body, .header .socialMediaButtons {
   margin: 0 !important;
   text-align: center !important; }
   .portfolio .text {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
     margin: 0 auto !important;
     max-width: 650px;
-    padding-top: 165px; }
+    position: relative;
+    top: 46%;
+    transform: translateY(-46%); }
     .portfolio .text h2 {
       font-family: 'Lato', sans-serif;
       font-weight: 900;
@@ -173,7 +195,7 @@ body, .header .socialMediaButtons {
     background-color: #44CDAD;
     height: 600px; }
     .portfolio #green img {
-      padding-top: 140px;
+      padding-top: 150px;
       height: 600px; }
   .portfolio #red {
     background-color: #FF968E;
@@ -181,12 +203,12 @@ body, .header .socialMediaButtons {
     .portfolio #red img {
       padding-top: 50px;
       height: 600px;
-      padding-left: 50px; }
+      padding-left: 25px; }
   .portfolio #yellow {
     background-color: #FFF6BB;
     height: 600px; }
     .portfolio #yellow img {
-      padding-top: 140px;
+      padding-top: 150px;
       height: 600px; }
   .portfolio .white {
     height: 600px !important; }
