@@ -113,21 +113,28 @@
         padding-top: 80px !important;
     }
 
-    #red {
+    #blue, #red {
         img {
             padding-top: 30px !important;
             height: 350px !important;
         }
     }
 
-    #green, #red, #yellow {
+    #blue, #green, #red, #yellow {
         height: 350px !important;
     }
 
+    .white {
+        height: 500px !important;
+    }
+
     .portfolio {
-        height: 2920px !important;
+        height: 3470px !important;
+
+        h2 {
+            font-size: 33px !important;
+            letter-spacing: 6px !important;
+        }
+        
     }
 }
-
-
-

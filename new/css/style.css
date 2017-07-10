@@ -68,15 +68,21 @@
     height: 350px !important;
     padding-top: 80px !important; }
 
-  #red img {
+  #blue img, .portfolio #red img, #red img {
     padding-top: 30px !important;
     height: 350px !important; }
 
-  #green, #red, #yellow {
+  #blue, .portfolio #red, #green, #red, #yellow {
     height: 350px !important; }
 
+  .white {
+    height: 500px !important; }
+
   .portfolio {
-    height: 2920px !important; } }
+    height: 3470px !important; }
+    .portfolio h2 {
+      font-size: 33px !important;
+      letter-spacing: 6px !important; } }
 body, .header .socialMediaButtons {
   width: 100%;
   margin: 0px;
@@ -159,7 +165,7 @@ body, .header .socialMediaButtons {
     margin-top: -390px; }
 
 .portfolio {
-  height: 1800px;
+  height: 2400px;
   width: 100% !important;
   margin: 0 !important;
   text-align: center !important; }
@@ -191,6 +197,13 @@ body, .header .socialMediaButtons {
       text-align: left;
       letter-spacing: 1px;
       line-height: 24px; }
+  .portfolio #blue, .portfolio #red {
+    background-color: #A0C1EC;
+    height: 600px; }
+    .portfolio #blue img, .portfolio #red img {
+      padding-top: 50px;
+      height: 600px;
+      padding-left: 25px; }
   .portfolio #green {
     background-color: #44CDAD;
     height: 600px; }
@@ -198,12 +211,8 @@ body, .header .socialMediaButtons {
       padding-top: 150px;
       height: 600px; }
   .portfolio #red {
-    background-color: #FF968E;
-    height: 600px; }
-    .portfolio #red img {
-      padding-top: 50px;
-      height: 600px;
-      padding-left: 25px; }
+    margin-left: 0;
+    background-color: #FF968E; }
   .portfolio #yellow {
     background-color: #FFF6BB;
     height: 600px; }
@@ -211,7 +220,7 @@ body, .header .socialMediaButtons {
       padding-top: 150px;
       height: 600px; }
   .portfolio .white {
-    height: 600px !important; }
+    height: 600px; }
 
 .footer {
   text-align: center;

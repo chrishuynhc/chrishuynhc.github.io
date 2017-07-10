@@ -3,6 +3,7 @@
 $mid-gray: #747272;
 $sub-gray: #A09D9D;
 $light-gray: #F1F2F2;
+$blue: #A0C1EC;
 $green: #44CDAD;
 $red: #FF968E;
 $yellow: #FFF6BB;
@@ -123,7 +124,7 @@ body {
 }
 
 .portfolio {
-    height: 1800px;
+    height: 2400px;
     width: 100% !important;
     margin: 0 !important;
     text-align: center !important;
@@ -164,6 +165,17 @@ body {
             line-height: 24px;
         }
     }
+    
+    #blue {
+        background-color: $blue;
+        height: 600px;
+
+        img {
+            padding-top: 50px;
+            height: 600px;
+            padding-left: 25px;
+        }
+    }
 
     #green {
         background-color: $green;
@@ -176,14 +188,9 @@ body {
     }
 
     #red {
+        margin-left: 0;
         background-color: $red;
-        height: 600px;
-
-        img {
-            padding-top: 50px;
-            height: 600px;
-            padding-left: 25px;
-        }
+        @extend #blue;
     }
 
     #yellow {
@@ -197,7 +204,7 @@ body {
     }
 
     .white {
-        height: 600px !important;
+        height: 600px;
     }
 }
 
