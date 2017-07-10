@@ -1,4 +1,60 @@
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
+  #pen {
+    height: 350px !important; }
+
+  #buds {
+    height: 220px !important;
+    margin-left: 120px !important;
+    margin-top: 0px !important; }
+
+  #glasses {
+    height: 380px !important;
+    margin-top: -340px !important; } }
+@media (max-width: 900px) {
+  #pen {
+    height: 250px !important; }
+
+  #buds {
+    height: 160px !important;
+    margin-left: 60px !important;
+    margin-top: 50px !important; }
+
+  #glasses {
+    height: 280px !important;
+    margin-top: -360px !important; } }
+@media (max-width: 500px) {
+  .about h1 {
+    padding-top: 160px !important; }
+
+  #pen {
+    height: 170px !important;
+    margin-top: -390px !important; }
+
+  #buds {
+    height: 140px !important;
+    margin-left: 60px !important;
+    margin-top: 70px !important; }
+
+  #glasses {
+    height: 200px !important;
+    margin-top: -390px !important; } }
+@media (max-width: 400px) {
+  .about h1 {
+    padding-top: 160px !important; }
+
+  #pen {
+    height: 170px !important;
+    margin-top: -440px !important; }
+
+  #buds {
+    height: 140px !important;
+    margin-left: 60px !important;
+    margin-top: 30px !important; }
+
+  #glasses {
+    height: 200px !important;
+    margin-top: -420px !important; } }
+@media (max-width: 992px) {
   .portfolio {
     height: 3600px !important; } }
 body, .header .socialMediaButtons {
@@ -8,7 +64,8 @@ body, .header .socialMediaButtons {
 
 .header {
   height: 600px;
-  text-align: center; }
+  text-align: center;
+  margin-top: -20px; }
   .header #name {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -67,7 +124,9 @@ body, .header .socialMediaButtons {
     letter-spacing: 1px;
     line-height: 24px;
     text-align: left;
-    color: #747272; }
+    color: #747272;
+    padding-left: 50px;
+    padding-right: 50px; }
   .about #pen {
     float: left;
     margin-top: -360px; }
@@ -85,8 +144,8 @@ body, .header .socialMediaButtons {
   margin: 0 !important;
   text-align: center !important; }
   .portfolio .text {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
     margin: 0 auto !important;
     max-width: 650px;
     padding-top: 165px; }
