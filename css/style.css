@@ -70,7 +70,8 @@
 
   #blue img, .portfolio #red img, #red img {
     padding-top: 30px !important;
-    height: 350px !important; }
+    height: 350px !important;
+    padding-left: 15px !important; }
 
   #blue, .portfolio #red, #green, #red, #yellow {
     height: 350px !important; }
@@ -203,7 +204,7 @@ body, .header .socialMediaButtons {
     .portfolio #blue img, .portfolio #red img {
       padding-top: 50px;
       height: 600px;
-      padding-left: 25px; }
+      padding-left: 30px; }
   .portfolio #green {
     padding: 0;
     background-color: #44CDAD;
