@@ -1,56 +1,121 @@
 <!DOCTYPE html>
 
-<html prefix="og: http://ogp.me/ns#">
+<html>
 	<head>
 		<title>Chris Huynh</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/animate.css">
-		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
 		<meta name="description" content="Hey I'm Chris." />
 		<meta name="keywords" content="Chris, Huynh, Dallas, Texas, software, engineer, full-stack, developer, designer, chris, huynh" />
-		<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
-		<meta property="og:title" content="Chris Huynh"/>
-		<meta property="og:description" content="Hey I'm Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas."/>
-	  	<meta property="og:url" content="chrishuynh.com"/>
-		<meta property="og:image" content="http://chrishuynh.com/images/wildrePortfolio.png"/>	
+		<link href="https://fonts.googleapis.com/css?family=Lato:900,700,400,300" rel="stylesheet">
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</head>
-
 	<body>
-			
-			<!--
-			<nav class="animated zoomIn">
-			  <ul>
-			  	
-			    <li onclick="">Menu
-			      <ul class="drop-menu menu-1">
-			        <li><a href="index.html" id="homeLink">Home</a></li>
-			        <li><a href="portfolio.html" id="portfolioLink">Portfolio</a></li>
-			        <li><a href="resume.pdf" id="resumeLink" target="_blank">Résumé</a></li>
-			      </ul>
-			    </li>
-			    
-			  </ul>
-			</nav>
-			-->
-		<div class="first">
-			<img class="background animated fadeIn" src="images/dallasSkylineBackground.png">
-			<h1 class="animated zoomIn">CHRIS HUYNH</h1>
-		
-			<p id="topP" class="animated zoomIn">Hey I'm Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas.  I also attend the University of Texas at Dallas where I'm majoring in Computer Science!  ~Currently exploring the MEAN stack, creating Textbooks City, and redesigning my personal site!</p> 
-			<p class="animated zoomIn">You can view my latest résumé <a href="resume.pdf" target="_blank">here</a>.</p>
-			<div id="socialMedia">
-				<ul class="socialMediaButtons">
-					<li id="one" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.instagram.com/huynh.chris/" target="_blank"><img src="images/instagramLogo@2x.png" height="40"></a></li>
-					<li id="two" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.facebook.com/chris.huynh.37051" target="_blank"><img src="images/facebookLogo@2x.png" height="40"></a></li>
-					<li id="three" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://github.com/chrishuynhc" target="_blank"><img src="images/githubLogo@2x.png" height="40"></a></li>
-					<li id="four" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.linkedin.com/in/chrishuynhc/" target="_blank"><img src="images/linkedinLogo@2x.png" height="40"></a></li>
-					<li id="five" class="animated zoomInUp hvr-ripple-out buttons"><a href="mailto:chris.huynh.c@gmail.com"><img src="images/emailLogo@2x.png" height="40"></a></li>
-				</ul>
+		<div class="header">
+			<h1 id="name" class="title animated zoomIn">CHRIS HUYNH</h1>
+			<h3 id="sub" class="animated zoomIn">DEVELOPER | DESIGNER</h3>
+			<ul class="socialMediaButtons">
+				<li id="one" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.instagram.com/huynh.chris/" target="_blank"><img src="images/instagramLogo@2x.png" height="40"></a></li>
+				<li id="three" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://github.com/chrishuynhc" target="_blank"><img src="images/githubLogo@2x.png" height="40"></a></li>
+				<li id="four" class="animated zoomInUp hvr-ripple-out buttons"><a href="https://www.linkedin.com/in/chrishuynhc/" target="_blank"><img src="images/linkedinLogo@2x.png" height="40"></a></li>
+				<li id="five" class="animated zoomInUp hvr-ripple-out buttons"><a href="mailto:chris.huynh.c@gmail.com"><img src="images/emailLogo@2x.png" height="40"></a></li>
+			</ul>
+			<span><a href="resume.pdf" target="_blank" id="resume" class="hvr-grow"><img src="images/resumeButton.png" height="35px" class="animated zoomIn"></a><span>
+		</div>
+
+		<div class="about">
+			<h1 class="title">ABOUT</h1>
+			<p class="info">Hey I’m Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas. I also attend the University of Texas at Dallas where I’m majoring in Computer Science! ~Currently exploring the MEAN stack, maintaining Textbooks City, and working on Stoks.io.  Check out my projects below!</p>
+			<img src="images/pen.png" height="400px" id="pen" class="animated slideInLeft"> 
+			<img src="images/buds.png" height="280px" id="buds" class="animated slideInLeft"> 
+			<img src="images/glasses.png" height="460px" id="glasses" class="animated slideInRight">
+		</div>
+
+		<div class="portfolio container">
+			<div class="row">
+				<div class="col-md-5 col-md-push-7" id="blue">
+					<img src="images/stoks.png" class="displayR">
+				</div>
+				<div class="col-md-7 col-md-pull-5 white bl" >
+					<div class="text">
+						<h2>STOKS.IO</h2>
+						<h4>SUMMER 2017 - IN DEVELOPMENT</h4>
+						<p>Stoks.io is a stock data and analytics tool that tests trading patterns using SMAs, EMAs, RSIs, etc.  The web application is currently in development and will be available on my github!</p>
+						<p>Technologies Used: Node.js, Express, React, MongoDB</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-md-7" id="green">
+						<a href="http://textbookscity.com" class="hvr-grow">
+							<div>
+								<img src="images/tbcity.png" class="displayL">
+							</div>
+						</a>
+					</div>
+				<div class="col-md-5 white">
+					<div class="text tbcity">
+						<h2>TEXTBOOKS CITY</h2>
+						<h4>SUMMER 2017</h4>
+						<p>Textbookscity.com is a textbook price comparison site that I made to help students find the cheapest prices on books.  It searches, compares, and finds the lowest prices across a multitude of vendors including Amazon, Chegg, Abebooks, Barnes & Noble, and much more.</p>
+						<p>Technologies Used: Node.js, Express, Angular, Bootstrap, Heroku</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-push-7" id="red">
+					<a href="https://github.com/chrishuynhc/Flash-TestFlightBeta" class="hvr-grow">
+						<div>
+							<img src="images/flash.png" class="displayR">
+						</div>
+					</a>
+				</div>
+				<div class="col-md-7 col-md-pull-5 white" >
+					<div class="text">
+						<h2>FLASH</h2>
+						<h4>FALL 2016</h4>
+						<p>Flash is a mobile iOS application that allows users to quickly and easily get quality recommendations on restaurants, cafes, and bars near them!  Users simply set default preferences and the app automatically searches for the best locations at a click of a button, anytime, anywhere.</p>
+						<p>Technologies Used: Swift, Firebase, Google Places API, Google Maps API</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7" id="yellow">
+					<a href="http://wildre.com" class="hvr-grow">
+						<div>
+							<img src="images/wildre.png" class="displayL">
+						</div>
+					</a>
+				</div>
+				<div class="col-md-5 white">
+					<div class="text">
+						<h2>WILDRE SHIRT CO.</h2>
+						<h4>SUMMER 2016</h4>
+						<p>Wildre is a T-shirt company that I co-founded with my sister to benefit the World Wildlife Fund!  For every shirt we sell, we donate 10% to the WWF.  I developed our site (wildre.com), oversaw sales, and assisted in the design of our summer 2016 and winter 2016 shirts.  Check out the website to learn more! <span id="oops">(Currently removed...wildre.com will be back soon!)</span> </p>
+						<p>Technologies Used: jQuery, Bootstrap, Shopify API</p>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="footer">
+			<h3 id="foot">Made by Chris Huynh - Dallas, TX</h3>
+		</div>
 	</body>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.displayL', {
+			duration: 1600,
+			origin: 'left'
+		});
+
+		sr.reveal('.displayR', {
+			duration: 1600,
+			origin: 'right'
+		});	
+	</script>
 </html>
