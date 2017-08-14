@@ -117,7 +117,7 @@ body, .header .socialMediaButtons {
     .header .socialMediaButtons #four {
       -webkit-animation-delay: .35s;
       /* Chrome, Safari, Opera */
-      animation-delay: .35; }
+      animation-delay: .35s; }
     .header .socialMediaButtons #five {
       -webkit-animation-delay: .40s;
       /* Chrome, Safari, Opera */
