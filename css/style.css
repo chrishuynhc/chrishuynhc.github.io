@@ -12,7 +12,7 @@
 
   #glasses {
     height: 380px !important;
-    margin-top: -340px !important; } }
+    margin-top: -340px !important; }}
 @media (max-width: 900px) {
   #pen {
     height: 250px !important; }
@@ -73,7 +73,12 @@
     height: 350px !important;
     padding-left: 15px !important; }
 
-  #blue, .portfolio #red, #green, #red, #yellow {
+  #navy img {
+    height: 200px !important;
+    margin-top: 40px !important;
+  }
+
+  #blue, .portfolio #red, #green, #red, #yellow, #navy {
     height: 350px !important; }
 
   .white {
@@ -166,7 +171,7 @@ body, .header .socialMediaButtons {
     margin-top: -390px; }
 
 .portfolio {
-  height: 2400px;
+  height: 3000px;
   width: 100% !important;
   margin: 0 !important;
   text-align: center !important; }
@@ -205,6 +210,13 @@ body, .header .socialMediaButtons {
       padding-top: 50px;
       height: 600px;
       padding-left: 30px; }
+      .portfolio #navy{
+    padding: 0;
+    background-color: #31405C;
+    height: 600px; }
+    .portfolio #navy img {
+      padding-top: 200px;
+      height: 400px; }
   .portfolio #green {
     padding: 0;
     background-color: #44CDAD;
