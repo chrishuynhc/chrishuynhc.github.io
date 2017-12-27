@@ -11,120 +11,96 @@
 		<meta name="description" content="Hey I'm Chris." />
 		<meta name="keywords" content="Chris, Huynh, Dallas, Texas, software, engineer, full-stack, developer, designer, chris, huynh, chrishuynh.com" />
 		<link href="https://fonts.googleapis.com/css?family=Lato:900,700,400,300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600" rel="stylesheet">
 		<script src="js/main.js" type="text/javascript"></script>
 		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</head>
+
 	<body>
-		<div class="header">
-			<h1 id="name" class="title animated zoomIn">CHRIS HUYNH</h1>
-			<h3 id="sub" class="animated zoomIn">DEVELOPER | DESIGNER</h3>
-			<ul class="socialMediaButtons">
-				<li id="one" class="animated zoomInUp buttons hvr-grow2"><a href="https://www.instagram.com/huynh.chris/" target="_blank"><img src="images/instagramLogo@2x.png" height="40"></a></li>
-				<li id="three" class="animated zoomInUp buttons hvr-grow2"><a href="https://github.com/chrishuynhc" target="_blank"><img src="images/githubLogo@2x.png" height="40"></a></li>
-				<li id="four" class="animated zoomInUp buttons hvr-grow2"><a href="https://www.linkedin.com/in/chrishuynhc/" target="_blank"><img src="images/linkedinLogo@2x.png" height="40"></a></li>
-				<li id="five" class="animated zoomInUp buttons hvr-grow2"><a href="mailto:chris.huynh.c@gmail.com"><img src="images/emailLogo@2x.png" height="40"></a></li>
-			</ul>
-			<span><a href="resume.pdf" target="_blank" id="resume" class="hvr-grow"><img src="images/resumeButton.png" height="35px" class="animated zoomIn"></a><span>
+		<div class="header container">
+			<div class="row">
+				<div id="wrapper" class="col-md-12">
+					<h1 class="animated fadeIn">CHRIS HUYNH</h1>
+					<h2 class="animated fadeIn">Developer.  Designer.  C&C Co-Founder.</h2>
+					<div class="animated fadeIn" id="smallDivider"></div>
+					<p class="animated fadeIn">Hey I’m Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas. I also attend The University of Texas at Dallas where I’m majoring in Computer Science!  Currently maintaining Textbooks City and creating C&C with my sister. I will be interning at Ultimate Software in the Spring!</p>
+					<ul class="socialMediaButtons">
+						<li id="one" class="animated zoomInUp buttons hvr-grow2"><a href="resume.pdf" target="_blank" id="resume" class="hvr-grow"><img src="images/resumeLogo.svg" height="28px" class="animated zoomIn"></a></li>
+						<li id="two" class="animated zoomInUp buttons hvr-grow2"><a href="https://www.instagram.com/huynh.chris/" target="_blank"><img src="images/instagram.svg" height="23px"></a></li>
+						
+						<li id="three" class="animated zoomInUp buttons hvr-grow2"><a href="https://github.com/chrishuynhc" target="_blank"><img src="images/github.svg" height="21px"></a></li>
+						<li id="four" class="animated zoomInUp buttons hvr-grow2"><a href="https://www.linkedin.com/in/chrishuynhc/"><img src="images/linkedin.svg" height="42px"></a></li>
+					</ul>
+				</div>
+				<img src="images/pen@2x.png" height="330px" id="pen" class="animated slideInLeft"> 
+				<img src="images/headphones@2x.png" height="280px" id="buds" class="animated slideInLeft"> 
+				<img src="images/glasses@2x.png" height="400px" id="glasses" class="animated slideInRight">
+			</div>
 		</div>
-
-		<div class="about">
-			<h1 class="title">ABOUT</h1>
-			<p class="info">Hey I’m Chris, a Full-Stack Developer and UI/UX Designer from Dallas, Texas. I also attend The University of Texas at Dallas where I’m majoring in Computer Science! ~Currently maintaining Textbooks City and creating C&C with my sister.  I will be interning at Ultimate Software in the Spring!</p>
-			<img src="images/pen.png" height="400px" id="pen" class="animated slideInLeft"> 
-			<img src="images/buds.png" height="280px" id="buds" class="animated slideInLeft"> 
-			<img src="images/glasses.png" height="460px" id="glasses" class="animated slideInRight">
+		<div id="divider">
 		</div>
-
+		<div>
+		</div>
 		<div class="portfolio container">
+			
 			<div class="row">
-					<div class="col-md-7" id="green">
-						<a href="http://textbookscity.com" class="hvr-grow">
-							<div>
-								<img src="images/tbcity.png" class="displayL">
-							</div>
-						</a>
-					</div>
-				<div class="col-md-5 white">
-					<div class="text tbcity">
-						<h2>TEXTBOOKS CITY</h2>
-						<h4>SUMMER 2017</h4>
-						<p>Textbookscity.com is site I developed to help students find the cheapest prices on textbooks.  It searches, compares, and finds the lowest prices on any book across a variety of vendors including Amazon, Chegg, Abebooks, Barnes & Noble, and much more. (Reached 2.5k unique users, 700+ cities, and 20 countries in one week!)</p>
-						<p>Technologies Used: Node.js, Express, Angular, Bootstrap, Heroku</p>
+				<div class="col-md-6">
+					<div class="text">
+						<h2 class="pTitle">Textbookscity.com</h2>
+						<div id="smallDivider2"></div>
+						<h4>Summer 2017</h4>
+						<p>Textbooks City is site I developed to help students find the cheapest prices on textbooks. It searches, compares, and finds the lowest prices on any book across a variety of vendors including Amazon, Chegg, Abebooks, Barnes & Noble, and much more. (Reached 2.5k unique users, 700+ cities, and 20 countries in one week!)</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-5 col-md-push-7" id="blue">
-					<a href="http://stockrocket.io" class="hvr-grow">
-						<div>
-							<img src="images/stoks.png" class="displayR">
+				<div class="col-md-6 displayR">
+					<a href="http://textbookscity.com/#/" class="hvr-grow">
+						<div class="pic">
+							<img src="images/tbcity.svg" height="250px">
 						</div>
 					</a>
-				</div>
-				<div class="col-md-7 col-md-pull-5 white bl" >
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-6">
 					<div class="text">
-						<h2>STOCK ROCKET.IO</h2>
-						<h4>SUMMER 2017</h4>
-						<p>StockRocket is an algorithmic trading site using SMAs, RSIs, EMAs, etc. to predict stock patterns.  The web application is currently in development and will be available soon!</p>
-						<p>Technologies Used: Node.js, Express, Socket.io, React, MongoDB</p>
+						<h2 class="pTitle">C&C · Design and Branding</h2>
+						<div id="smallDivider2"></div>
+						<h4>Summer 2017</h4>
+						<p>C&C is a sibling run house of design with focus on crisp and contemporary branding and web design. I founded C&C with my sister, Christine, and we plan to deliver quality content to our clients very soon! :)</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-					<div class="col-md-7" id="navy">
-						<a href="#" class="hvr-grow">
-							<div>
-								<img src="images/cc.png" class="displayL" id="cc">
-							</div>
-						</a>
-					</div>
-				<div class="col-md-5 white">
-					<div class="text tbcity">
-						<h2>C&C</h2>
-						<h4>SUMMER 2017</h4>
-						<p>C&C is a sibling run house of design with focus on crisp and contemporary branding and web design.  I founded C&C with my sister, <a href="https://christineth.dunked.com/">Christine</a>, and we plan to deliver quality content to our clients very soon! :)</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-5 col-md-push-7" id="red">
-					<a href="https://github.com/chrishuynhc/Flash-TestFlightBeta" class="hvr-grow">
-						<div>
-							<img src="images/flash.png" class="displayR">
+				<div class="col-md-6 displayR">
+					<a href="https://www.ultimatesoftware.com/internships" class="hvr-grow">
+						<div class="pic">
+							<img src="images/cc.svg" height="250px">
 						</div>
 					</a>
-				</div>
-				<div class="col-md-7 col-md-pull-5 white" >
+				</div>	
+			</div>	
+			<div class="row">
+				<div class="col-md-6">
 					<div class="text">
-						<h2>FLASH</h2>
-						<h4>FALL 2016</h4>
-						<p>Flash is a mobile iOS application that allows users to quickly and easily get quality recommendations on restaurants, cafes, and bars near them!  Users simply set default preferences and the app automatically searches for the best locations at a click of a button, anytime, anywhere.</p>
-						<p>Technologies Used: Swift, Firebase, Google Places API, Google Maps API</p>
+						<h2 class="pTitle">Ultimate Software · SWE Intern</h2>
+						<div id="smallDivider2"></div>
+						<h4>Spring 2018</h4>
+						<p>I will be participating in Ultimate Software's TechSTARS, software engineering internship program in Weston, Florida!</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-7" id="yellow">
-					<a href="https://christineth.dunked.com/wildre" class="hvr-grow">
-						<div>
-							<img src="images/wildre.png" class="displayL">
+				<div class="col-md-6 displayR">
+					<a href="#" class="hvr-grow">
+						<div class="pic">
+							<img src="images/us.svg" height="250px">
 						</div>
 					</a>
-				</div>
-				<div class="col-md-5 white">
-					<div class="text">
-						<h2>WILDRE SHIRT CO.</h2>
-						<h4>SUMMER 2016</h4>
-						<p>Wildre is a T-shirt company that I co-founded with my sister to benefit the World Wildlife Fund!  For every shirt we sold, we donated 10% to the WWF.  I developed our site (wildre.com), oversaw sales, and assisted in the design of our summer 2016 and winter 2016 shirts.  Check out the website to learn more!</p>
-						<p>Technologies Used: jQuery, Bootstrap, Shopify API</p>
-					</div>
-				</div>
-			</div>
+				</div>	
+			</div>				
 		</div>
+
 		<div class="footer">
-			<h3 id="foot">©2017 Chris Huynh. Made in Dallas, TX.</h3>
+			<h3 id="foot">©2018 Chris Huynh. Made in Dallas, TX.</h3>
 		</div>
 	</body>
+
 	<script>
 		window.sr = ScrollReveal();
 		sr.reveal('.displayL', {
@@ -138,13 +114,13 @@
 		});	
 	</script>
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-82396622-1', 'auto');
-  ga('send', 'pageview');
+		  ga('create', 'UA-82396622-1', 'auto');
+		  ga('send', 'pageview');
 
 </script>
 </html>
