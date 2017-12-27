@@ -1,0 +1,139 @@
+//HEADER
+@media (max-width: 657px){
+    .header {
+        #name {
+            padding-top: 170px !important;
+        }
+    }
+}
+
+//ABOUT SECTION
+@media (max-width: 1450px){
+
+    #pen {
+        height: 350px !important;
+    }
+    #buds {
+        height: 220px !important;
+        margin-left: 120px !important;
+        margin-top: 0px !important;
+    }
+
+    #glasses {
+        height: 380px !important;
+        margin-top: -340px !important;
+    }
+}
+
+@media (max-width: 900px){
+   #pen {
+        height: 250px !important;
+    }
+    #buds {
+        height: 160px !important;
+        margin-left: 60px !important;
+        margin-top: 50px !important;
+    }
+
+    #glasses {
+        height: 280px !important;
+        margin-top: -360px !important;
+    }
+}
+
+@media (max-width: 500px){
+
+
+    .about {
+        h1 {
+            padding-top: 160px !important;
+        }
+
+    }
+    #pen {
+        height: 170px !important;
+        margin-top: -390px !important;
+    }
+    #buds {
+        height: 140px !important;
+        margin-left: 60px !important;
+        margin-top: 70px !important;
+    }
+
+    #glasses {
+        height: 200px !important;
+        margin-top: -390px !important;
+
+    }
+}
+
+@media (max-width: 400px){
+
+
+    .about {
+        h1 {
+            padding-top: 160px !important;
+        }
+    }
+    #pen {
+        height: 170px !important;
+        margin-top: -440px !important;
+    }
+    #buds {
+        height: 140px !important;
+        margin-left: 60px !important;
+        margin-top: 30px !important;
+    }
+
+    #glasses {
+        height: 200px !important;
+        margin-top: -420px !important;
+    }
+}
+
+//PORTFOLIO
+@media (max-width: 992px){
+    .portfolio {
+        height: 4830px !important;
+
+        .text {
+            padding-left: 50px !important;
+            padding-right: 40px !important;
+        }
+    }
+}
+
+@media (max-width: 650px){
+
+    .displayL {
+        height: 350px !important;
+        padding-top: 80px !important;
+    }
+
+    #blue, #red {
+        img {
+            padding-top: 30px !important;
+            height: 350px !important;
+            padding-left: 15px !important;
+        }
+    }
+
+    #blue, #green, #red, #yellow {
+        height: 350px !important;
+    }
+
+    .white {
+        height: 500px !important;
+    }
+
+    .portfolio {
+        height: 3495px !important;
+
+        h2 {
+            font-size: 33px !important;
+            letter-spacing: 6px !important;
+        }      
+    }
+
+
+}
