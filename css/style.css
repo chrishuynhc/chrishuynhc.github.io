@@ -301,10 +301,13 @@ ul {
 @media (max-width: 390px){
 
 	h1 {
-		font-size: 34px !important;
+		font-size: 30px !important;
 		letter-spacing: 1.6px;
 	}
+}
 
+@media (max-width: 340px) {
+	
 	#buds {
 		display: none;
 	}
