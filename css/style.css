@@ -306,8 +306,8 @@ ul {
 	}
 }
 
-@media (max-width: 340px) {
-	
+@media (max-width: 360px) {
+
 	#buds {
 		display: none;
 	}
