@@ -298,18 +298,13 @@ ul {
 	}
 }
 
-@media (max-width: 300px) and (max-height: 600px) {
-	#buds {
-			margin-top: calc(600px - 87px) !important;
-	}
-}
-
 @media (max-width: 390px){
 
 	h1 {
-		font-size: 30px !important;
-		letter-spacing: 1.7px;
+		font-size: 34px !important;
+		letter-spacing: 1.6px;
 	}
+
 }
 
 #one {
