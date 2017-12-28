@@ -305,6 +305,13 @@ ul {
 		letter-spacing: 1.6px;
 	}
 
+	#buds {
+		display: none;
+	}
+
+	#glasses {
+		display: none;
+	}
 }
 
 #one {
