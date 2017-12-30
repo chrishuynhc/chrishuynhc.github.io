@@ -29,7 +29,7 @@ h1 {
 	font-family: 'Museo Sans', sans-serif !important;
 	font-weight: 900 !important;
 	font-size: 38px !important;
-	letter-spacing: 3px;
+	letter-spacing: 2.5px;
 	color: black;
 }
 
@@ -78,7 +78,7 @@ p {
 	font-weight: 300 !important;
 	line-height: 27px !important;
 	font-size: 13.2px !important;
-	letter-spacing: .6px;
+	letter-spacing: .7px;
 	color: #676767 !important;
 	max-width: 570px;
 }
@@ -315,27 +315,27 @@ ul {
 }
 
 #one {
-	-webkit-animation-delay: .05s;
+	-webkit-animation-delay: .00s;
       /* Chrome, Safari, Opera */
-      animation-delay: .05s;
+      animation-delay: .00s;
 }
 
 #two {
-	-webkit-animation-delay: .20s;
+	-webkit-animation-delay: .15s;
       /* Chrome, Safari, Opera */
-      animation-delay: .20s;
+      animation-delay: .15s;
 }
 
 #three {
-	-webkit-animation-delay: .35s;
+	-webkit-animation-delay: .30s;
       /* Chrome, Safari, Opera */
-      animation-delay: .35s;
+      animation-delay: .30s;
 }
 
 #four {
-	-webkit-animation-delay: .40s;
+	-webkit-animation-delay: .45s;
       /* Chrome, Safari, Opera */
-      animation-delay: .40s;
+      animation-delay: .45s;
 }
 
 #buds {
