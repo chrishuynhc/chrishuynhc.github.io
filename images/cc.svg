@@ -1,4 +1,4 @@
-<svg id="Group_1465" data-name="Group 1465" xmlns="http://www.w3.org/2000/svg" viewBox="11633 3442 568 336">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12229 3434 568 336">
   <defs>
     <style>
       .cls-1 {
@@ -18,6 +18,8 @@
       }
     </style>
   </defs>
-  <rect id="Rectangle_232" data-name="Rectangle 232" class="cls-1" width="568" height="336" rx="7" transform="translate(11633 3442)"/>
-  <text id="C_C" data-name="C&amp;C" class="cls-2" transform="translate(11766.145 3562.61)"><tspan x="57.402" y="75">C</tspan><tspan class="cls-3" y="75">&amp;</tspan><tspan y="75">C</tspan></text>
+  <g id="Group_1475" data-name="Group 1475" transform="translate(596 -8)">
+    <rect id="Rectangle_232" data-name="Rectangle 232" class="cls-1" width="568" height="336" transform="translate(11633 3442)"/>
+    <text id="C_C" data-name="C&amp;C" class="cls-2" transform="translate(11766.145 3562.61)"><tspan x="57.402" y="75">C</tspan><tspan class="cls-3" y="75">&amp;</tspan><tspan y="75">C</tspan></text>
+  </g>
 </svg>
